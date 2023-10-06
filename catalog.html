@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Каталог</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="navigation">
+        <a href="#" class="logo-link">
+          <img src="#" alt="Логотип">
+        </a>
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a href="index.html" class="navigation-link" href="home.html">Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="about-Sedona.html">О Седоне</а>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link navigation-link-current" href="#">Гостиницы</a>
+          </li>
+        </ul>
+        </nav>
+        <button class ="navigation-list">
+          <span class="visually-hidden">Поиск</span>
+        </button>
+        <button type="button" class="btn-like">
+          <span class="visually-hidden">Лайк</span>
+        </button>
+        <button type="button" class="btn-want-here">
+           Хочу сюда!
+        </button>
+    </header>
+
+    <!--
+    <main class="main-iner">
+      <header class="iner-header">
+        <h1 class="iner-header-title">Гостиницы Седоны</h1>
+      </header>
+    </main>
+  -->
+    <section class="filter">
+      <h2 class="visually-hidden">Фильтр</h2>
+      <form class="select-filter" action="https://echohtmlacademy.ru/" method="get">
+
+        <fieldset class="Infrastructure-filter-group">
+          <legend class="Infrastructure-filter-title">инфроструктура</legend>
+          <ul class="Infrastructure-filter-list">
+              <li class="Infrastructure-filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="Pool" checked>
+
+              Бассейн
+                </label>
+              </li>
+          <li class="Infrastructure-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="Parking" checked>
+
+              Парковка
+            </label>
+          </li>
+          <li class="Infrastructure-filter-item">
+            <label class="control">
+              <input class="control-input" type="checkbox" name="wi-fi">
+
+              wi-fi
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+
+      <fieldset class="type-of-housing-filter-group">
+        <legend class="type-of-housing-filter-title">Тип жилья</legend>
+        <ul class="type-of-housing-filter-list">
+            <li class="type-of-housing-filter-item">
+              <label class="control">
+                <input class="control-input" type="radio" name="type-of-housing"value="hostel">
+
+            Гостиница
+              </label>
+            </li>
+        <li class="type-of-housing-filter-item">
+          <label class="control">
+            <input class="control-input" type="radio" name="type-of-housing" value="motel">
+
+            Мотель
+          </label>
+        </li>
+        <li class="type-of-housing-filter-item">
+          <label class="control">
+            <input class="control-input" type="radio" name="type-of-housing" value="apartments">
+
+            Апартаменты
+          </label>
+        </li>
+      </ul>
+    </fieldset>
+
+      </form>
+    </section>
+
+  </body>
+</html>
